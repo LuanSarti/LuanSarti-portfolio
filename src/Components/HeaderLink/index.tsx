@@ -7,7 +7,7 @@ const HeaderLink = ({ text, link }: propsType) => {
   return (
     <>
       <a
-        className="px-4 py-3 rounded mx-2 hover:bg-blue-600 animation"
+        className="animation mx-2 rounded px-4 py-3 hover:bg-blue-600"
         href={`#${link}`}
       >
         {text}

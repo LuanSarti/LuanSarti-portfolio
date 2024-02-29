@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <>
       <footer className="flex items-center justify-center">
-        <div className="w-[43%] border-2 rounded-e-full h-1 absolute left-0"></div>
-        <div className="w-[43%] border-2 rounded-s-full absolute right-0"></div>
-        <div className="container flex items-center justify-center flex-col mt-4">
+        <div className="absolute left-0 h-1 w-[43%] rounded-e-full border-2"></div>
+        <div className="absolute right-0 w-[43%] rounded-s-full border-2"></div>
+        <div className="container mt-4 flex flex-col items-center justify-center">
           <nav className="flex flex-1 gap-4">
             <IconLink link="https://github.com/LuanSarti" icon={Github} />
             <IconLink
@@ -15,7 +15,7 @@ const Footer = () => {
               icon={Linkedin}
             />
           </nav>
-          <span className="text-xs mt-4">@2024 LuanSarti</span>
+          <span className="mt-4 text-xs">@2024 LuanSarti</span>
         </div>
       </footer>
     </>

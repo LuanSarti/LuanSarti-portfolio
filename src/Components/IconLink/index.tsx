@@ -10,7 +10,7 @@ const IconLink = ({ link, icon }: propsType) => {
   return (
     <>
       <a
-        className="p-2 rounded-2xl animation hover:bg-neutral-800"
+        className="animation rounded-2xl p-2 hover:bg-neutral-800"
         href={`${link}`}
         target="_blank"
       >

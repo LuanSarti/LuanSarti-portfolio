@@ -9,10 +9,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <Resume />
-      <Skills />
-      <Projects />
-      <Contacts />
+      <main>
+        <Resume />
+        <Skills />
+        <Projects />
+        <Contacts />
+      </main>
       <Footer />
     </>
   );
