@@ -1,9 +1,9 @@
-interface propsType {
+interface IProps {
   text: string;
   link: string;
 }
 
-const HeaderLink = ({ text, link }: propsType) => {
+const HeaderLink = ({ text, link }: IProps) => {
   return (
     <>
       <a

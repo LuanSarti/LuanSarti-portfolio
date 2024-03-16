@@ -1,4 +1,4 @@
-import LogoLuan from "../../assets/LogoLuan.jpeg";
+import LogoLuan from "../../assets/LogoLuan.png";
 import HeaderLink from "../HeaderLink";
 
 const Header = () => {
